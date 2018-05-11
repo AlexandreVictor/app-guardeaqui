@@ -26,4 +26,5 @@ class AnunciosController extends Controller
              ->select('nome', 'endereco')->get();
         return $Dados;
     }
+    
 }
