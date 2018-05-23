@@ -18,18 +18,14 @@ Route::get('/cadastro_usuarios', function () {
     return view('cadastro_usuarios');
 });
 
-Route::get('/cadastro_usuarios', function () {
-    return view('cadastro_usuarios');
-});
-
 Route::get('/login', function () {
     return view('login');
-});
-
-Route::get('welcome/app', function () {
-    return redirect('api');
 });
 
 Route::get('/', function () {
     return view('index');
 });
+
+//Route::get('welcome/app', function () {
+//    return redirect('api');
+//});

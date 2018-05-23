@@ -29,7 +29,7 @@
 					<div class="form-group text-center">
 						<button type="button" class="btn btn-primary btn-block">Login</button>
 					</div>
-                    <div><span class="text-muted">Não Registrado?</span> <a href="#">Criar Conta...</a></div>
+                    <div><span class="text-muted">Não Registrado?</span> <a href="{{url('/Usuarios/Cadastro_Usuarios_Controller/create')}}">Criar Conta...</a></div>
 				</form>
 			</div>
 		</div>

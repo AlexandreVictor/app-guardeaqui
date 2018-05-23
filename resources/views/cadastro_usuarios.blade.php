@@ -1,6 +1,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/validacaoCadastroUsuarios.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
 <!DOCTYPE html>
@@ -242,7 +243,7 @@
     
   </div>
   
-  
+  <!--
    <label class="col-md-1 control-label" for="encaminhamento">Aluno FAP-Betim<h11>*</h11></label>
   <div class="col-md-4">
     <div class="input-group">
@@ -259,7 +260,7 @@
       <input id="enc" name="curso" class="form-control" type="text" placeholder="Curso" >
       
     </div>
-    
+-->
   </div>
   
   
@@ -267,7 +268,7 @@
  
  <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="textinput">Como ficou sabendo da Clínica?</label>  
+  <label class="col-md-2 control-label" for="textinput">Como ficou sabendo do My Storage?</label>  
   <div class="col-md-4">
   <input id="textinput" name="textinput" placeholder="" class="form-control input-md" type="text">
     

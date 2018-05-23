@@ -40,8 +40,8 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://mobirise.com">
-                         <img src="assets/images/warehouse-122x122.png" alt="Mobirise" title="" style="height: 3.8rem;">
+                    <a href="https://.com">
+                         <img src="assets/images/warehouse-122x122.png" alt="" title="" style="height: 3.8rem;">
                     </a>
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="https://mobirise.com">My Storage</a></span>
@@ -58,16 +58,14 @@
                         About Us
                     </a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="https://mobirise.com">New Item</a></div>
                 </li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-success display-4" href="https://mobirise.com">Aréa do Anunciante</a></div>
+            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-success display-4" href="{{url('/login')}}">Aréa do Anunciante</a></div>
         </div>
     </nav>
 </section>
 
 <section class="engine"><a href="https://mobirise.me/w">html5 templates</a></section><section class="cid-qSOFv5xiMs mbr-fullscreen mbr-parallax-background" id="header2-a">
 
-    
 
-    
 
     <div class="container align-center">
         <div class="row justify-content-md-center">
@@ -77,7 +75,7 @@
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">Para cada objeto, um lugar para armazenar!<br><br><br></p>
                 <div class="mbr-section-btn"><a class="btn btn-md btn-secondary display-4" href="https://mobirise.com"></a>
-                    <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.com"></a></div>
+                   <!-- <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.com"></a>--></div>
             </div>
         </div>
     </div>
