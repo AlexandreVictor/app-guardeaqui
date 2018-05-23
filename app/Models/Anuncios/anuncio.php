@@ -27,10 +27,8 @@ class anuncio extends Model
 
     protected $dates = ['datacadastro'];
 
-    public function usuario()
-    {
-        return $this->hasMany('App\Models\Usuarios\usuario');
+    function anuncio() {
+        return $this->belongsTo('App\Models\Anuncios\anuncio');
     }
-
 
 }

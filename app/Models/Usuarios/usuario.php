@@ -19,4 +19,6 @@ class usuario extends Model
     function anuncio() {
         return $this->belongsTo('App\Models\Anuncios\anuncio');
     }
+
+
 }
