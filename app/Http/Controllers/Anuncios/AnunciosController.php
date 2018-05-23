@@ -11,12 +11,12 @@ class AnunciosController extends Controller
         public function index(){
         
         //VERIFICAR POIS ESTA DANDO ERRO
-        //$Dados = DB::table('anuncios')
-        //->where('pago','=','1')
-        //->where('aprovado','=','1')
-        //->where('status','=','1')
-        //->select('nome', 'endereco')->get();
-        //return $Dados;
+        $Dados = DB::table('anuncios')
+        ->where('pago','=','1')
+        ->where('aprovado','=','1')
+        ->where('status','=','1')
+        ->select('nome', 'endereco')->get();
+        return $Dados;
 
         $Anuncio = anuncio::with('anuncio')->get();
         return response()->json($Anuncio);
@@ -27,7 +27,7 @@ class AnunciosController extends Controller
             //retornar os dados conforme id
        
             $Dados = DB::table('anuncios')
-             ->where('id','=',$id)
+             ->where('endereco','=',$id)
              ->select('nome', 'endereco','numero','bairro', 'cidade', 'cep', 'regional')->get();
         return $Dados;
     }
