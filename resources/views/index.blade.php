@@ -159,7 +159,7 @@
                         Premium
                     </h3>
                     <div class="plan-price">
-                        <span class="price-value mbr-fonts-style display-5">R$;</span>
+                        <span class="price-value mbr-fonts-style display-5">R$</span>
                         <span class="price-figure mbr-fonts-style display-1">30</span>
                         <small class="price-term mbr-fonts-style display-7"></small>
                     </div>

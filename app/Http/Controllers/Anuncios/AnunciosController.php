@@ -27,7 +27,7 @@ class AnunciosController extends Controller
             //retornar os dados conforme id
        
             $Dados = DB::table('anuncios')
-             ->where('id','=',$id)
+             ->where('endereco','=',$id)
              ->select('nome', 'endereco','numero','bairro', 'cidade', 'cep', 'regional')->get();
         return $Dados;
     }
