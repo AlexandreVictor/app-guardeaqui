@@ -8,28 +8,28 @@
 		<div class="panel panel-default" style="box-shadow: 3px 3px 10px #ccc;">
 			<div class="panel-body">
 				<div class="text-center">
-					<img class="img-circle" src="https://s3.amazonaws.com/myblog--flask-bucket/photos/comicavatar_500x500.jpg" alt="" width="150" height="150">
+					<img class="img-circle" src="/img/man.png" alt="Avatar" width="150" height="150">
 				</div>
-				<h2 class="text-center">Victor Santiago</h2>
+				<h2 class="text-center"></h2>
 				<form role="form" action="" method="POST">
 					<div class="form-group">
-						<input class="form-control" type="text" placeholder="Username...">
+						<input class="form-control" type="text" placeholder="Digite seu usuário...">
 					</div>
 					<div class="form-group">
-						<input class="form-control" type="text" placeholder="Password...">
+						<input class="form-control" type="text" placeholder="Digite sua Senha...">
 					</div>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <label><input class="" type="checkbox" value=""> Remember me</label>
+                            <label><input class="" type="checkbox" value=""> Lembrar-me</label>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
-                            <a href="#">Forgot password?</a>
+                            <a href="#">Esqueceu Senha?</a>
                         </div>
                     </div>
 					<div class="form-group text-center">
 						<button type="button" class="btn btn-primary btn-block">Login</button>
 					</div>
-                    <div><span class="text-muted">Not registered?</span> <a href="#">Create an account</a></div>
+                    <div><span class="text-muted">Não Registrado?</span> <a href="#">Criar Conta...</a></div>
 				</form>
 			</div>
 		</div>

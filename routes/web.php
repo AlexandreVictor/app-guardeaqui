@@ -12,7 +12,18 @@ Route::group(array('prefix' => 'api'), function()
   Route::resource('anuncios', 'Anuncios\AnunciosController');
   Route::get('anuncios/enderecos/{id}', 'Anuncios\AnunciosController@anunciosporendereco');
 
+});
 
+Route::get('/cadastro_usuarios', function () {
+    return view('cadastro_usuarios');
+});
+
+Route::get('/cadastro_usuarios', function () {
+    return view('cadastro_usuarios');
+});
+
+Route::get('/login', function () {
+    return view('login');
 });
 
 Route::get('welcome/app', function () {
