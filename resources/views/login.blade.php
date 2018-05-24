@@ -8,7 +8,7 @@
 		<div class="panel panel-default" style="box-shadow: 3px 3px 10px #ccc;">
 			<div class="panel-body">
 				<div class="text-center">
-					<img class="img-circle" src="/img/man.png" alt="Avatar" width="150" height="150">
+					<h2>Entrar<h2> <!--img class="img-circle" src="/img/man.png" alt="Avatar" width="150" height="150"-->
 				</div>
 				<h2 class="text-center"></h2>
 				<form role="form" action="" method="POST">
@@ -23,13 +23,13 @@
                             <label><input class="" type="checkbox" value=""> Lembrar-me</label>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
-                            <a href="#">Esqueceu Senha?</a>
+                            <a href="{{route('recuperarSenha.index')}}">Esqueceu Senha?</a>
                         </div>
                     </div>
 					<div class="form-group text-center">
 						<button type="button" class="btn btn-primary btn-block">Login</button>
 					</div>
-                    <div><span class="text-muted">Não Registrado?</span> <a href="{{url('/Usuarios/Cadastro_Usuarios_Controller/create')}}">Criar Conta...</a></div>
+                    <div><span class="text-muted">Não Registrado?</span> <a href="{{route('Cadastro_Usuarios.create')}}">Criar Conta...</a></div>
 				</form>
 			</div>
 		</div>

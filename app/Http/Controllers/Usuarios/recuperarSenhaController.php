@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Usuarios;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class Cadastro_Usuarios_Controller extends Controller
+class recuperarSenhaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class Cadastro_Usuarios_Controller extends Controller
      */
     public function index()
     {
-        //
+        return view('recuperarSenha');
     }
 
     /**
@@ -24,7 +24,7 @@ class Cadastro_Usuarios_Controller extends Controller
      */
     public function create()
     {
-        return view('cadastro_usuarios');
+        //
     }
 
     /**

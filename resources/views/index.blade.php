@@ -20,8 +20,6 @@
   <link rel="stylesheet" href="assets/gallery/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
-  
 </head>
 <body>
   <section class="menu cid-qSMzvEAamz" once="menu" id="menu1-1">
@@ -74,7 +72,10 @@
                     My Storage</h1>
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">Para cada objeto, um lugar para armazenar!<br><br><br></p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-secondary display-4" href="https://mobirise.com"></a>
+            
+
+
+                <div class="mbr-section-btn"><a class="btn btn-md btn-secondary display-4" href="https://mobirise.com">Pesquisar</a>
                    <!-- <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.com"></a>--></div>
             </div>
         </div>

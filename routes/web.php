@@ -18,6 +18,9 @@ Route::get('/cadastro_usuarios', function () {
     return view('cadastro_usuarios');
 });
 
+Route::resource('Cadastro_Usuarios', 'Usuarios\Cadastro_Usuarios_Controller');
+Route::resource('recuperarSenha', 'Usuarios\recuperarSenhaController');
+
 Route::get('/login', function () {
     return view('login');
 });

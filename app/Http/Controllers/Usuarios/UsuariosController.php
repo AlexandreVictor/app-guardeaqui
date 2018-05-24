@@ -18,10 +18,10 @@ class UsuariosController extends Controller
     }
     public function nm_teste($id)
     {
-            //retornar todos os dados
+        //retornar todos os dados
         //$Dados = DB::table('usuarios')->where('id',1)->get();
 
-            //retornar os dados conforme id
+        //retornar os dados conforme id
         $Dados = DB::table('usuarios')
                     ->where('id','=',$id)
                     ->select('nome', 'foto','ddd',
@@ -29,6 +29,7 @@ class UsuariosController extends Controller
         return $Dados;
     }
 
+    
 
 
 }

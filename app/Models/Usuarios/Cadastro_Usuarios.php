@@ -11,7 +11,7 @@ class Cadastro_Usuarios extends Model
 
     protected $dates = ['datacadastro'];
 
-    function anuncio() {
+    function cadastroUsuarios() {
         return $this->belongsTo('App\Models\Usuarios\Cadastro_Usuarios');
     }
 
